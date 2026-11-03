@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View photographs of Lesotho's food, cultural places, parks and mountain scenery.">
+    <title>Gallery | Explore Lesotho</title>
+    <link rel="stylesheet" href="Lesotho(5).css">
+    <script src="Script(1).js" defer></script>
+</head>
+<body>
+    <nav class="site-nav" aria-label="Main navigation">
+        <a class="brand" href="Lesotho(4).html">Explore Lesotho</a>
+        <div class="nav-links">
+            <a class="nav-link" href="Lesotho(4).html">Home</a>
+            <a class="nav-link" href="About1(4).html">About</a>
+            <a class="nav-link" href="destinations1(4).html">Destinations</a>
+            <a class="nav-link" href="gallery1(4).html">Gallery</a>
+            <a class="nav-link" href="contacts1(4).html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="page-hero gallery-hero">
+        <div class="container hero-content">
+            <p class="eyebrow">Little moments, big views</p>
+            <h1>Postcards from <em>Lesotho.</em></h1>
+            <p class="hero-copy">Take a closer look at the places, food and culture that make a journey memorable.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section container">
+            <div class="section-heading">
+                <p class="eyebrow text-gold">Photo gallery</p>
+                <h2 class="section-title">A closer <em>look.</em></h2>
+                <p class="lead-copy">Select any photograph to open a larger preview. Use the previous and next buttons to move through the gallery.</p>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <button class="gallery-tile" type="button" data-full="lijo(2).jpg" data-caption="Traditional Basotho food">
+                    <img src="lijo(2).jpg" alt="Traditional Basotho food served in bowls">
+                    <span>Traditional food</span>
+                </button>
+                <button class="gallery-tile" type="button" data-full="cultural(2).jpg" data-caption="A cultural venue in Lesotho">
+                    <img src="cultural(2).jpg" alt="Outdoor cultural venue in Lesotho">
+                    <span>Culture and heritage</span>
+                </button>
+                <button class="gallery-tile" type="button" data-full="katse(2).jpg" data-caption="Katse Dam and mountain scenery">
+                    <img src="katse(2).jpg" alt="Katse Dam surrounded by mountains">
+                    <span>Katse Dam</span>
+                </button>
+                <button class="gallery-tile" type="button" data-full="kimberlite(2).jpg" data-caption="Kimberlite Park">
+                    <img src="kimberlite(2).jpg" alt="Kimberlite Park and its landscaped grounds">
+                    <span>Kimberlite Park</span>
+                </button>
+            </div>
+
+            <div class="gallery-controls">
+                <button class="button button-dark" id="galleryPrevious" type="button">Previous</button>
+                <span class="gallery-counter" id="galleryCounter">0 / 4</span>
+                <button class="button button-dark" id="galleryNext" type="button">Next</button>
+            </div>
+        </section>
+    </main>
+
+    <div class="lightbox" id="galleryLightbox" aria-hidden="true">
+        <div class="lightbox-content" role="dialog" aria-modal="true" aria-label="Gallery image preview">
+            <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close preview">&times;</button>
+            <img id="lightboxImage" src="" alt="">
+            <p id="lightboxCaption"></p>
+            <div class="lightbox-controls">
+                <button class="button button-outline" id="lightboxPrevious" type="button">Previous</button>
+                <button class="button button-gold" id="lightboxNext" type="button">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span class="current-year"></span> Explore Lesotho. Discover responsibly.</p>
+        </div>
+    </footer>
+</body>
+</html>

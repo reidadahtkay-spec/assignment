@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Lesotho's destinations, highland scenery, cultural sites and outdoor experiences.">
+    <title>Destinations | Explore Lesotho</title>
+    <link rel="stylesheet" href="Lesotho(5).css">
+    <script src="Script(1).js" defer></script>
+</head>
+<body>
+    <nav class="site-nav" aria-label="Main navigation">
+        <a class="brand" href="Lesotho(4).html">Explore Lesotho</a>
+        <div class="nav-links">
+            <a class="nav-link" href="Lesotho(4).html">Home</a>
+            <a class="nav-link" href="About1(4).html">About</a>
+            <a class="nav-link" href="destinations1(4).html">Destinations</a>
+            <a class="nav-link" href="gallery1(4).html">Gallery</a>
+            <a class="nav-link" href="contacts1(4).html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="page-hero destinations-hero">
+        <div class="container hero-content">
+            <p class="eyebrow">Choose your adventure</p>
+            <h1>Find your next <em>favourite place.</em></h1>
+            <p class="hero-copy">From dramatic highlands to cultural experiences and peaceful outdoor spaces.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section container">
+            <div class="section-heading">
+                <p class="eyebrow text-gold">A few ideas to begin with</p>
+                <h2 class="section-title">Explore by <em>interest.</em></h2>
+                <p class="lead-copy">Choose a category to find an experience that interests you.</p>
+            </div>
+
+            <div class="filter-group" aria-label="Filter destinations">
+                <button class="filter-button active" type="button" data-filter="all">All places</button>
+                <button class="filter-button" type="button" data-filter="nature">Nature</button>
+                <button class="filter-button" type="button" data-filter="culture">Culture</button>
+                <button class="filter-button" type="button" data-filter="adventure">Adventure</button>
+                <button class="filter-button" type="button" data-filter="place to stay">Place to stay</button>
+            </div>
+
+            <div class="destination-grid" id="destinationGrid">
+                <article class="destination-card destination-item" data-category="nature adventure">
+                    <img src="katse(2).jpg" alt="Katse Dam and the surrounding mountains">
+                    <div class="card-content">
+                        <span class="category-label">Nature</span>
+                        <h3>Katse Dam</h3>
+                        <p>See the impressive dam wall and the mountain landscape around the Katse Reservoir.</p>
+                        <button class="small-button details-btn" type="button" data-place="Katse Dam" data-description="Plan your route before travelling. Check local road conditions and visitor arrangements, and take time to enjoy the mountain scenery.">Travel note</button>
+                    </div>
+                </article>
+
+                <article class="destination-card destination-item" data-category="culture">
+                    <img src="cultural(2).jpg" alt="Outdoor cultural venue in Lesotho">
+                    <div class="card-content">
+                        <span class="category-label">Culture</span>
+                        <h3>Cultural experiences</h3>
+                        <p>Explore spaces where visitors can learn about local heritage, community and traditions.</p>
+                        <button class="small-button details-btn" type="button" data-place="Cultural experiences" data-description="Ask about opening times and activities before visiting. Be respectful of local customs and ask permission before taking photographs of people.">Travel note</button>
+                    </div>
+                </article>
+
+                <article class="destination-card destination-item" data-category="culture">
+                    <img src="lijo(2).jpg" alt="Traditional Basotho food arranged in serving bowls">
+                    <div class="card-content">
+                        <span class="category-label">Food and culture</span>
+                        <h3>Traditional food</h3>
+                        <p>Discover local dishes and learn how food forms part of hospitality and everyday life.</p>
+                        <button class="small-button details-btn" type="button" data-place="Traditional food" data-description="Try locally prepared meals where available. Ask about ingredients if you have food allergies or dietary requirements.">Travel note</button>
+                    </div>
+                </article>
+
+                <article class="destination-card destination-item" data-category="nature adventure">
+                    <img src="kimberlite(2).jpg" alt="Kimberlite Park with traditional-style buildings and green grounds">
+                    <div class="card-content">
+                        <span class="category-label">Outdoor visit</span>
+                        <h3>Kimberlite Park</h3>
+                        <p>Enjoy a relaxed visit to a landscaped park with traditional-style buildings and open grounds.</p>
+                        <button class="small-button details-btn" type="button" data-place="Kimberlite Park" data-description="Confirm visitor access and any entry arrangements before travelling. Keep the grounds clean and respect other visitors.">Travel note</button>
+                    </div>
+                </article>
+
+                <article class="destination-card destination-item" data-category="place to stay">
+                    <img src="mabita.jpg" alt="Enjoy the view from Moathameleng Resort in Lesotho">
+                    <div class="card-content">
+                        <span class="category-label">Accommodation</span>
+                        <h3>Moathameleng Resort</h3>
+                        <p>Experience comfort and hospitality at this scenic resort in the heart of Lesotho.</p>
+                        <button class="small-button details-btn" type="button" data-place="Moathameleng Resort" data-description="Confirm booking details and any special arrangements before travelling. Respect the property and its surroundings.">Travel note</button>
+                    </div>
+                </article>
+
+                <article class="destination-card destination-item" data-category="place to stay">
+                    <img src="mediterranean.jpg" alt="Enjoy the view from Mediterranean Lodge in Lesotho">
+                    <div class="card-content">
+                        <span class="category-label">Accommodation</span>
+                        <h3>Mediterranean Lodge</h3>
+                        <p>Experience the charm of Mediterranean-style accommodation in the heart of Lesotho at Mapholaneng.</p>
+                        <button class="small-button details-btn" type="button" data-place="Mediterranean Lodge" data-description="Confirm booking details and any special arrangements before travelling. Respect the property and its surroundings.">Travel note</button>
+                    </div>
+                </article>
+
+                <article class="destination-card destination-item" data-category="place to stay">
+                    <img src="qhanolla.jpg" alt="Feel the serenity of Qhanolla Lodge in Lesotho">
+                    <div class="card-content">
+                        <span class="category-label">Accommodation</span>
+                        <h3>Qhanolla Lodge</h3>
+                        <p>Experience the tranquility of Qhanolla Lodge, nestled in the beautiful landscapes of Lesotho in Butha-Buthe.</p>
+                        <button class="small-button details-btn" type="button" data-place="Qhanolla Lodge" data-description="Confirm booking details and any special arrangements before travelling. Respect the property and its surroundings.">Travel note</button>
+                    </div>
+                </article>
+
+                <article class="destination-card destination-item" data-category="place to stay">
+                    <img src="mnicas.jpg" alt="Enjoy your stay at Mnicas'(Empire) warm place at St Monica in Lesotho">
+                    <div class="card-content">
+                        <span class="category-label">Accommodation</span>
+                        <h3>Mnicas'(Empire) Guest House</h3>
+                        <p>Experience the warmth and hospitality of Mnicas'(Empire) Guest House, located in the heart of Lesotho in Leribe District.</p>
+                        <button class="small-button details-btn" type="button" data-place="Mnicas'(Empire) Guest House" data-description="Confirm booking details and any special arrangements before travelling. Respect the property and its surroundings.">Travel note</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="quote-band">
+            <div class="container">
+                <p class="eyebrow">Ready to go?</p>
+                <blockquote>Good journeys begin with a little curiosity and a thoughtful plan.</blockquote>
+                <a class="button button-gold" href="contacts1(4).html">Ask us a question</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span class="current-year"></span> Explore Lesotho. Discover responsibly.</p>
+        </div>
+    </footer>
+</body>
+</html>

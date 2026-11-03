@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Explore Lesotho with a question about places and travel experiences.">
+    <title>Contact | Explore Lesotho</title>
+    <link rel="stylesheet" href="Lesotho(5).css">
+    <script src="Script(1).js" defer></script>
+</head>
+<body>
+    <nav class="site-nav" aria-label="Main navigation">
+        <a class="brand" href="Lesotho(4).html">Explore Lesotho</a>
+        <div class="nav-links">
+            <a class="nav-link" href="Lesotho(4).html">Home</a>
+            <a class="nav-link" href="About1(4).html">About</a>
+            <a class="nav-link" href="destinations1(4).html">Destinations</a>
+            <a class="nav-link" href="gallery1(4).html">Gallery</a>
+            <a class="nav-link" href="contacts1(4).html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="page-hero contact-hero">
+        <div class="container hero-content">
+            <p class="eyebrow">We would love to hear from you</p>
+            <h1>Let's plan your <em>Lesotho story.</em></h1>
+            <p class="hero-copy">Send us a question or tell us what you would like to discover.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section container">
+            <div class="contact-layout">
+                <div class="contact-intro">
+                    <p class="eyebrow text-gold">Get in touch</p>
+                    <h2 class="section-title">Your next journey starts with a question.</h2>
+                    <p>Use the form to share your question or travel interest. Please provide a valid email address so that you can be contacted if a working email service is connected.</p>
+                    <p class="notice">This is a demonstration website. The form checks your details in the browser but does not send or store messages.</p>
+                </div>
+
+                <div class="contact-container">
+                    <h2>Contact form</h2>
+                    <form id="contactForm">
+                        <label for="name">First name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your first name" required>
+
+                        <label for="surname">Surname</label>
+                        <input type="text" id="surname" name="surname" placeholder="Enter your surname" required>
+
+                        <label for="otherName">Other name (optional)</label>
+                        <input type="text" id="otherName" name="otherName" placeholder="Enter another name">
+
+                        <label for="phone">Contact number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                        <label for="message">Your message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Write your message here" required></textarea>
+
+                        <button class="button button-gold form-submit" type="submit">Send message</button>
+                        <button class="button button-light form-reset" type="reset">Clear form</button>
+                        <p id="formMessage" class="form-message" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span class="current-year"></span> Explore Lesotho. Discover responsibly.</p>
+        </div>
+    </footer>
+</body>
+</html>
